@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home Page</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
-
     <script src="https://kit.fontawesome.com/7c8663a8f9.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
@@ -19,45 +18,25 @@
 
 <body>
     <!-- NAVBAR SECTION  -->
-    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <img src="Images/Navbar-images/Logo.png" class="logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Men</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Women</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Combos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Joggers</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                </form>
-            </div>
-
-            <div>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-regular fa-user"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-            </div>
+    <nav class="taskbar">
+        <div class="nav-logo"><img src="Images/Navbar-images/Logo.png" alt="logo"></div>
+        <ul class="nav-links">
+            <li><a href="#" id="shop">Shop</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Combos</a></li>
+            <li><a href="#">Joggers</a></li>
+        </ul>
+        <div class="search-field">
+            <img src="icons/Icon.png" alt="Search-icon">
+            <input type="text" placeholder="Search...">
         </div>
-    </nav> -->
-
+        <div class="nav-icons">
+            <img src="icons/Component 1.png" alt="Favorite-icon">
+            <img src="icons/Component 2.png" alt="User-icon">
+            <img src="icons/Component 3.png" alt="Cart-icon">
+        </div>
+    </nav>
 
 
 
@@ -82,7 +61,7 @@
     <!-- DEALS SECTION -->
     <section id="deals-section">
         <div id="high-coziness">
-            <img id="deals-img1" src="/Images/Deals-images/unsplash_Qyc13QBGaM4(1).jpg">
+            <img id="deals-img1" src="Images/Deals-images/unsplash_Qyc13QBGaM4(1).jpg">
             <div id="deals-text">
                 <h6 id="low-price-heading">Low Price</h6>
                 <h2 id="high-coziness-heading">High Coziness</h2>
@@ -149,12 +128,43 @@
             <h3 id="big-saving-heading">Big Saving Days</h3>
         </div>
 
-        <div class="">
-
+        <div class="big-saving-card-upper-box">
+            <div>
+                <img src="Images/Big-saving-days-images/Rectangle 74.png">
+            </div>
+            <div>
+                <img src="Images/Big-saving-days-images/Rectangle 75.png">
+            </div>
+            <div>
+                <img src="Images/Big-saving-days-images/Rectangle 76.png">
+            </div>
         </div>
-        <div>
 
+
+
+        <div class="big-saving-card-lower-box">
+            <div class="urban-shirts">
+                <img class="big-saving-lower-img" src="Images/Big-saving-days-images/Rectangle 77.png">
+                <div class="big-saving-lower-text">
+                    <h1>Urban Shirts</h1>
+                    <h5>Live In Confort</h5>
+                    <h3>FLAT 60% OFF</h3>
+                    <div class="big-saving-arrow"><img src="Images/Big-saving-days-images/arrow (2).png"></div>
+                    <button class="big-saving-lower-btn">SHOP NOW</button>
+                </div>
+            </div>
+            <div class="oversized-t-shirts">
+                <img class="big-saving-lower-img" src="Images/Big-saving-days-images/Rectangle 78.png">
+                <div class="big-saving-lower-text">
+                    <!-- <h1>Oversized T-Shirts</h1>
+                    <h5>Street Style Icon</h5>
+                    <h3>FLAT 60% OFF</h3>
+                    <div class="big-saving-arrow"><img src="Images/Big-saving-days-images/arrow (2).png"></div>
+                    <button class="big-saving-lower-btn">SHOP NOW</button> -->
+                </div>
+            </div>
         </div>
+
     </section>
 
 
@@ -191,7 +201,7 @@
 
         <div id="categories">
             <div id="frame-49">
-                <div id="frame-15">
+                <div class="frame-15">
                     <img class="men-section-img" src="Images/Men-categories-images/Rectangle 20.png">
                     <div class="men-section-text-div">
                         <div>
@@ -376,8 +386,10 @@
 
         <div id="categories">
             <div id="frame-49">
-                <div id="frame-15">
-                    <img class="men-section-img" src="Images/In-the-limelight-images/Rectangle 25.png">
+                <div class="frame-15">
+                    <img class="men-section-img" id="men-section-img"
+                        src="Images/In-the-limelight-images/Rectangle 25.png">
+                    <img class="men-section-img-icon" src="Images/In-the-limelight-images/Frame 49.png">
                     <div class="men-section-text-div">
                         <div>
                             <h5 class="limelight-section-heading">Black Sweatshirt with ....</h5>
@@ -388,7 +400,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="frame-15">
+                <div class="frame-15">
                     <img class="men-section-img" src="Images/In-the-limelight-images/Rectangle 25 (1).png">
                     <div class="men-section-text-div">
                         <div>
@@ -400,7 +412,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="frame-15">
+                <div class="frame-15">
                     <img class="men-section-img" src="Images/In-the-limelight-images/Rectangle 25 (2).png">
                     <div class="men-section-text-div">
                         <div>
@@ -412,7 +424,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="frame-15">
+                <div class="frame-15">
                     <img class="men-section-img" src="Images/In-the-limelight-images/Rectangle 25 (3).png">
                     <div class="men-section-text-div">
                         <div>
@@ -431,6 +443,154 @@
 
 
 
+    <!-- FEEDBACK SECTION  -->
+    <section id="feedback-section">
+        <div class="heading-div">
+            <div class="rectangle-icon"></div>
+            <h3 id="categories-for-men-heading">Feedback</h3>
+        </div>
+
+        <div class="test-cont">
+            <div class="card">
+                <div class="stars">
+                    <img class="profile" src="feedback-profile/Rectangle 729.png">
+                    <div>
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_half.png">
+                        <img src="icons/star_outline.png">
+                    </div>
+                </div>
+                <h2>Floyd Miles</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit.
+                    <br>Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                    consequat sunt nostrud amet.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="stars">
+                    <img class="profile" src="feedback-profile/Rectangle 729 (1).png">
+                    <div>
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_outline.png">
+                    </div>
+                </div>
+                <h2>Ronald Richards</h2>
+                <p>ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="stars">
+                    <img class="profile" src="feedback-profile/Rectangle 729 (2).png">
+                    <div>
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_purple500.png">
+                        <img src="icons/star_half.png">
+                        <img src="icons/star_outline.png">
+                    </div>
+                </div>
+                <h2>Savannah Nguyen</h2>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis enim velit mollit.
+                    <br>Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit
+                    aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam
+                    consequat sunt nostrud amet.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- NEED HELP SECTION  -->
+    <section class="help-need-section">
+        <div class="frame-127">
+            <div class="frame-123">
+                <div class="frame-129">
+                    <h4>Need Help</h4>
+                    <div class="frame-115">
+                        <h6>Contact Us</h6>
+                        <h6>Track Order</h6>
+                        <h6>Returns & Refunds</h6>
+                        <h6>FAQ's</h6>
+                        <h6>Career</h6>
+                    </div>
+                </div>
+
+                <div class="frame-129">
+                    <h4>Company</h4>
+                    <div class="frame-115">
+                        <h6>About Us</h6>
+                        <h6>euphoria Blog</h6>
+                        <h6>euphoriastan</h6>
+                        <h6>Collaboration</h6>
+                        <h6>Media</h6>
+                    </div>
+                </div>
+
+                <div class="frame-129">
+                    <h4>More Info</h4>
+                    <div class="frame-115">
+                        <h6>Term and Conditions</h6>
+                        <h6>Privacy Policy</h6>
+                        <h6>Shipping Policy</h6>
+                        <h6>Sitemap</h6>
+                    </div>
+                </div>
+
+                <div class="frame-129">
+                    <h4>Location</h4>
+                    <div class="frame-115">
+                        <h6>support@euphoria.in</h6>
+                        <h6>Eklingpura Chouraha, Ahmedabad Main Road</h6>
+                        <h6>(NH 8- Near Mahadev Hotel) Udaipur, India- 313002</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="download-the-app">
+                <h3>Download The App </h3>
+            </div>
+
+            <div class="frame-18">
+                <div>
+                    <img src="icons/fb.png">
+                    <img src="icons/insta.png">
+                    <img src="icons/twitter.png">
+                    <img src="icons/linkedIn.png">
+                </div>
+                <div>
+                    <img src="icons/google-pay.png">
+                    <img src="icons/app-store.png">
+                </div>
+            </div>
+
+            <div class="line-break"></div>
+
+            <div class="popular-category">
+                <h6>Popular Categories</h6>
+                <img src="icons/down-arrow.png">
+            </div>
+
+            <div class="line-break"></div>
+
+            <h4 class="copyright-text">Copyright © 2023 Euphoria Folks Pvt Ltd. All rights reserved.</h4>
+        </div>
+    </section>
 
 </body>
 

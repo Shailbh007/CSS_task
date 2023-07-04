@@ -24,7 +24,7 @@
     list-style: none;
 }
 
-#shop {
+.shop {
     color: #3C4242;
 }
 
@@ -67,18 +67,17 @@
 
 
 
-
 /*====================================== BANNER SECTION ====================================== */
-#banner-img {
+.banner-img {
     width: 100%;
 }
 
-#banner-section {
+.banner-section {
     position: relative;
     color: #FFFFFF;
 }
 
-#banner-text {
+.banner-text {
     width: 439px;
     height: 455px;
     top: 129px;
@@ -86,7 +85,7 @@
     position: absolute;
 }
 
-#header-tag {
+.header-tag {
     font-size: 32px;
     font-weight: 500;
     line-height: 38px;
@@ -94,7 +93,7 @@
     text-align: left;
 }
 
-#headline {
+.headline {
     font-size: 78px;
     font-weight: 800;
     line-height: 94px;
@@ -102,7 +101,7 @@
     text-align: left;
 }
 
-#sub-haedline {
+.sub-haedline {
     font-size: 32px;
     font-weight: 500;
     line-height: 47px;
@@ -110,7 +109,25 @@
     text-align: left;
 }
 
-#banner-button {
+.icon {
+    width: 40px;
+    height: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left-icon {
+    left: 40px;
+}
+
+.right-icon {
+    right: 40px;
+}
+
+.banner-button {
     width: Hug (250px);
     height: Hug (61px);
     padding: 16px 72px 16px 72px;
@@ -124,22 +141,31 @@
     text-align: center;
 }
 
+.carousel {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /*====================================== DEAL SECTION  ======================================*/
-#deals-section {
+.deals-section {
     width: 1240px;
     height: 356px;
     margin: 100px auto;
     display: flex;
 }
 
-#high-coziness {
+.high-coziness {
     position: relative;
     width: 605px;
     height: 356px;
     color: #FFFFFF;
 }
 
-#deals-img1 {
+.deals-img1 {
     width: 605px;
     height: 356px;
     margin-top: 0.3px;
@@ -149,13 +175,13 @@
     box-shadow: 2px 2px 10px 0px #00000066;
 }
 
-#deals-text {
+.deals-text {
     width: 605px;
     height: 356px;
     position: absolute;
 }
 
-#low-price-heading {
+.low-price-heading {
     width: 97px;
     height: 31px;
     margin-top: 67px;
@@ -167,7 +193,7 @@
     text-align: left;
 }
 
-#high-coziness-heading {
+.high-coziness-heading {
     font-size: 34px;
     font-weight: 800;
     line-height: 45px;
@@ -179,7 +205,7 @@
     margin-left: 28px;
 }
 
-#upto-50-off {
+.upto-50-off {
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
@@ -190,7 +216,7 @@
     margin-left: 28px;
 }
 
-#explore-items {
+.explore-items {
     font-size: 20px;
     font-weight: 800;
     line-height: 30px;
@@ -202,14 +228,14 @@
     margin-left: 32px;
 }
 
-#breezy-summer-style {
+.breezy-summer-style {
     position: relative;
     width: 605px;
     height: 356px;
     color: #FFFFFF;
 }
 
-#deals-img2 {
+.deals-img2 {
     width: 605px;
     height: 356px;
     border-radius: 12px;
@@ -218,12 +244,12 @@
     box-shadow: 2px 2px 10px 0px #00000066;
 }
 
-#frame-145 {
+.frame-145 {
     position: absolute;
     margin-left: 32px;
 }
 
-#beyoungs-present-heading {
+.beyoungs-present-heading {
     width: 180px;
     height: 31px;
     margin-top: 67px;
@@ -235,7 +261,7 @@
     text-align: left;
 }
 
-#breezy-summer-heading {
+.breezy-summer-heading {
     font-size: 34px;
     font-weight: 800;
     line-height: 45px;
@@ -247,8 +273,9 @@
 }
 
 
+
 /*====================================== NEW ARRIVAL SECTION ======================================*/
-#new-arrival-section {
+.new-arrival-section {
     width: 1240px;
     height: 416px;
     margin: 0 auto;
@@ -267,7 +294,7 @@
     border-radius: 10px;
 }
 
-#new-arrival-heading {
+.new-arrival-heading {
     font-size: 34px;
     font-weight: 600;
     line-height: 34px;
@@ -279,7 +306,7 @@
     margin-left: 26px;
 }
 
-#frame-140 {
+.frame-140 {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
@@ -302,16 +329,15 @@
 
 
 
-
 /*====================================== BIG SAVING DAYS SECTION ======================================*/
-#big-saving-zone-section {
+.big-saving-zone-section {
     width: 1240px;
     height: 908px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
 
-#big-saving-heading {
+.big-saving-heading {
     font-size: 34px;
     font-weight: 600;
     line-height: 34px;
@@ -323,12 +349,6 @@
     margin-left: 26px;
 }
 
-.urban-shirts {
-    width: 610px;
-    height: 393px;
-    display: flex;
-}
-
 .big-saving-card-upper-box {
     display: flex;
     justify-content: space-between;
@@ -336,19 +356,113 @@
     margin-top: 30px;
 }
 
+.frame-image {
+    position: relative;
+    width: 25rem;
+    height: 24.5625rem;
+}
+
+.upper-card {
+    position: absolute;
+    top: 40%;
+    transform: translate(10%, -50%);
+    line-height: 30.07px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+
+.hawaiian-heading {
+    margin-top: 20px;
+}
+
+.big-saving-upper-card1 {
+    left: 10px;
+    text-align: left;
+    width: 204px;
+    height: 272px;
+}
+
+.big-saving-upper-card2 {
+    text-align: right;
+    right: 25px;
+    width: 195px;
+    height: 290px;
+    margin-top: 20px;
+}
+
+.big-saving-upper-card3 {
+    right: 25px;
+    color: #3C4242;
+    text-align: left;
+    width: 170px;
+    height: 262px;
+}
+
+.upper-card h1 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.upper-card h5 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 20px 0;
+}
+
+.upper-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.saving-arrow {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.upper-saving-btn {
+    width: 132px;
+    height: 36px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    background-color: transparent;
+    color: #3C4242;
+    border: 1px solid #3C4242;
+}
+
+.saving-btn {
+    width: 132px;
+    height: 36px;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: center;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
 .big-saving-card-lower-box {
     display: flex;
     justify-content: space-between;
 }
 
-.big-saving-lower-img {
-    position: relative;
+.big-saving-lower-card {
     width: 610px;
     height: 393px;
-    border-radius: 12px;
+    display: flex;
 }
 
-.big-saving-lower-text {
+.big-saving-lower-text-left {
     position: absolute;
     width: 133px;
     height: 297px;
@@ -356,23 +470,25 @@
     left: 500px;
 }
 
-.big-saving-lower-text h1 {
+.lower-card h1 {
     font-size: 32px;
     font-weight: 600;
     line-height: 44px;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-top: 30px;
 }
 
-.big-saving-lower-text h5 {
+.lower-card h5 {
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    margin: 20px 0;
 }
 
-.big-saving-lower-text h3 {
+.lower-card h3 {
     font-size: 20px;
     font-weight: 700;
     line-height: 24px;
@@ -380,22 +496,32 @@
     text-align: left;
 }
 
-.big-saving-lower-btn {
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 14px;
-    letter-spacing: 0em;
+.big-saving-btn {
+    width: 132px;
+    height: 36px;
+    font-weight: bold;
+    border-radius: 4px;
     text-align: center;
+    background-color: transparent;
+}
+
+.big-saving-lower-text-right {
+    position: absolute;
+    width: 133px;
+    height: 297px;
+    color: #3C4242;
+    left: 1100px;
+}
+
+.big-saving-arrow {
+    text-align: center;
+    margin: 30px 0;
 }
 
 
 
-
-
-
-
 /*====================================== WE MADE YOUR EVERYDAY SECTION ======================================*/
-#we-made-your-everyday-section {
+.we-made-your-everyday-section {
     display: flex;
     width: 1240px;
     height: 640px;
@@ -404,22 +530,22 @@
     margin-bottom: 60px;
 }
 
-#frame-396 {
+.frame-396 {
     width: 614px;
     height: 640px;
 }
 
-#we-made-left-div {
+.we-made-left-div {
     position: relative;
 }
 
-#rectangle-13 {
+.rectangle-13 {
     width: 626px;
     height: 640px;
     left: 614px;
 }
 
-#we-made-heading {
+.we-made-heading {
     font-size: 34px;
     font-weight: 800;
     line-height: 50px;
@@ -428,7 +554,7 @@
     color: #FFFFFF;
 }
 
-#we-made-your-everyday-text {
+.we-made-your-everyday-text {
     position: absolute;
     width: 466px;
     height: 282px;
@@ -436,7 +562,7 @@
     left: 74px;
 }
 
-#we-made-sub-heading {
+.we-made-sub-heading {
     font-size: 20px;
     font-weight: 300;
     line-height: 24px;
@@ -445,7 +571,7 @@
     color: #FFFFFF;
 }
 
-#we-made-section-button {
+.we-made-section-button {
     margin-top: 44px;
     width: Hug (168px);
     height: Hug (46px);
@@ -463,14 +589,14 @@
 
 
 /*====================================== CATEGORIES FOR MEN SECTION ======================================*/
-#categories-for-men-section {
+.categories-for-men-section {
     width: 1240px;
     height: 1054px;
     margin: 0 auto;
     margin-bottom: 60px;
 }
 
-#categories-for-men-heading {
+.categories-heading {
     font-size: 34px;
     font-weight: 600;
     line-height: 34px;
@@ -482,11 +608,11 @@
     margin-left: 26px;
 }
 
-#categories {
+.categories {
     margin-top: 30px;
 }
 
-#frame-49 {
+.frame-49 {
     display: flex;
     justify-content: space-between;
 }
@@ -521,9 +647,8 @@
 
 
 
-
 /*======================================  CATEGORIES FOR WOMEN SECTION  ======================================*/
-#categories-for-women-section {
+.card-container {
     width: 1240px;
     height: 553px;
     margin: 0 auto;
@@ -532,9 +657,8 @@
 
 
 
-
 /*====================================== TOP DEALS SECTION ======================================*/
-#top-deal-section {
+.top-deal-section {
     width: 1234px;
     height: 357px;
     border-radius: 12px;
@@ -593,7 +717,6 @@
 
 
 
-
 /*====================================== IN THE LIMELIGHT SECTION  ======================================*/
 .limelight-section-heading {
     font-size: 16px;
@@ -643,10 +766,8 @@
 
 
 
-
-
 /*====================================== FEEDBACK SECTION  ======================================*/
-#feedback-section {
+.feedback-section {
     width: 1240px;
     height: 553px;
     margin: 0 auto;
@@ -686,6 +807,13 @@
     margin-bottom: 20px;
 }
 
+.ellipse {
+    text-align: center;
+    width: 1240px;
+    height: 24px;
+    padding: 8px 0px 8px 0px;
+    gap: 4px;
+}
 
 
 
